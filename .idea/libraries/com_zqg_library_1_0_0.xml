@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.zqg:library-1.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.0.0.aar/cfb733ebd393c8976e74c5f3bc799bdb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.0.0.aar/cfb733ebd393c8976e74c5f3bc799bdb/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zqg/library/1.0.0/b75b6d119eac43e991418ef37e03f3b421289e41/library-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bwie.com.jd_app.fragment.ClassifyFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<!--
+    <include
+        android:id="@+id/titlrbar"
+        layout="@layout/kind_toolbar"
+        ></include>-->
+    <android.support.v7.widget.Toolbar
+        android:fitsSystemWindows="true"
+        android:id="@+id/tool_head"
+        android:layout_height="?android:actionBarSize"
+        android:layout_width="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+         <!--   <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sao_kind"
+                />-->
+            <EditText
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:background="@color/bg_gray"
+                android:hint="都市丽人领劵满399减200"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lv_class"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="#fff">
+
+    </ListView>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/timg" />
+
+        <ExpandableListView
+            android:id="@+id/rv_class"
+            android:layout_width="match_parent"
+            android:layout_height="850dp"
+            android:layout_weight="1">
+
+        </ExpandableListView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
+</FrameLayout>
